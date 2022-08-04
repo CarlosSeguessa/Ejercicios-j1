@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Ejercicio 5</title>
+</head>
+<body class="h-screen bg-gray-600">
+    <div class="w-full flex flex-col items-center justify-center h-screen">
+    <div  class="my-0 mx-28 w-80 h-64 flex flex-col items-center justify-center text-white border-4 border-black rounded-md p-2">
+        <label for="numero1">Ingrese primer numero</label>
+        <input type="text" name="numero1" id="n1" class="text-black pl-1">
+        <label for="numero2">Ingrese otro numero</label>
+        <input type="text" name="numero2" id="n2" class="text-black pl-1">
+        <label for="numero3">Ingrese otro numero</label>
+        <input type="text" name="numero3" id="n3" class="text-black pl-1">
+        <button id="btncalc" class="m-3 w-48 border-2">Calcular</button>
+    </div>
+    <div class="">
+        <h2 class="text-white text-2xl">Resultado:</h2>
+        <p class="text-white" id="resultado"> </p>
+    </div>
+</div>
+
+<script src="./js/ejercicio2.js"></script>
+</body>
+</html>
